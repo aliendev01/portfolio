@@ -131,6 +131,12 @@ export default function Home() {
           </div>
 
         </div>
+        <div className="pt-4 flex flex-col ">
+          <div className=" w-[100vw] ">
+            <img src="aaa_tailors_showCase.png" className=" float-right h-[40vh] w-[40vw] " />
+          </div>
+
+        </div>
       </div>
     </>
   );
