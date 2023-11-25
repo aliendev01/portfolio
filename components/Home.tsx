@@ -1,5 +1,3 @@
-import Dropdown from "@/utils/drop_down";
-import Test from "@/utils/drop_down";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 export default function Home() {
   return (
@@ -34,8 +32,8 @@ export default function Home() {
                 SOFTWARE ENGINEER, FULL STACK & APP DEVELOPER.
               </h3>
             </div>
-            <div className=" absolute top-[80vh] left-[40vw] flex justify-center items-center text-center">
-              <Dropdown />
+            <div className=" absolute top-[80vh]  left-[40vw] flex justify-center items-center text-center">
+              <div className="scroll-down-dude pl-[5vh] pt-[7vh] "></div>
             </div>
           </div>
         </div>
@@ -197,18 +195,69 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="pt-4 flex flex-col bg-bg">
-          <div className="">
+        <div className="pt-4 flex w-full justify-between  bg-bg pb-4 items-center">
+          <div className="flex flex-col  pl-4  pb-2 ">
+            <div className=" w-[40vw] ">
+              <img
+                src="right_arrow_show_case_app.png"
+                className=" w-[50vw] pb-2 h-[15vh]  "
+              />
+            </div>
+            <h3 className=" text-white text-sm">Featured Project</h3>
+            <h2 className="text-xl text-white w-[40vw] font-bold  ">
+              AAA Tailors APP
+            </h2>
+            <div
+              className=" bg-purpleShade text-white text-cener flex items-center justify-center h-fit w-fit
+             rounded-sm text-md px-6 py-2"
+            >
+              <a className="text-xs font-bold ">View Project</a>
+            </div>
+          </div>
+          <div className="pr-3">
             <img
               src="aaa_tailors_show_case.png"
-              className=" float-right mr-10 h-[35vh] w-[35vw] "
+              className="  h-[45vh] w-[45vw] "
             />
           </div>
-          <div className="flex flex-col relative -top-20 pl-4">
-            <h3 className=" text-white text-sm">Featured Project</h3>
-            <h2 className="text-xl text-white w-[40vw] font-bold  ">AAA Tailors APP</h2>
-            <div className=" bg-purpleShade text-white text-cener flex items-center justify-center h-fit w-fit rounded-md text-md px-4 py-1">
-              <a>View Project</a>
+        </div>
+        <div className="bg-bg text-white pl-4 pr-4 text-start pt-3 ">
+          <div className="flex flex-col">
+            <div className="flex items-center">
+              <div className="flex items-center ">
+                <div className="flex space-x-2">
+                  <a className=" text-xs ">
+                    Filter By <span>All</span>
+                  </a>
+                  <h3 className="flex text-xs relative top-[-7px]">10</h3>
+                </div>
+                <h2 className="text-white text-sm pl-3">/</h2>
+              </div>
+
+              <div className="flex pl-3">
+                <div className="flex space-x-1">
+                  <a className=" text-xs ">Web Development</a>
+                  <h3 className="flex text-xs relative top-[-7px]">4</h3>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center  pt-2">
+              <div className="flex items-center">
+                <div className="flex space-x-2">
+                  <a className=" text-xs ">
+                    App Development
+                  </a>
+                  <h3 className="flex text-xs relative top-[-7px]">2</h3>
+                </div>
+                <h2 className="text-white text-sm pl-3">/</h2>
+              </div>
+
+              <div className="flex pl-3 ">
+                <div className="flex space-x-1">
+                  <a className=" text-xs ">Open Source </a>
+                  <h3 className="flex text-xs relative top-[-7px]">4</h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
