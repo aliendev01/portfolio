@@ -121,9 +121,6 @@ export default function Home() {
               <img src="hello-world-html-code.webp" className="w-[90vw] opacity-40 object-fill"/>
 
             </div>
-
-
-
           </div>
         </div>
         <div className="relative pt-6 bg-bg ">
